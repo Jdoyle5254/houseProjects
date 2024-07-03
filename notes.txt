@@ -1,0 +1,10 @@
+\*
+project management board for household tasks and projects
+main page with cards displaying project names
+within each card when you click it displays tasks 
+for that project.
+
+todo: create html, js, and css
+
+
+*\

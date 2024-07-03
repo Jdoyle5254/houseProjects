@@ -1,0 +1,13 @@
+.projectCard {
+    border: 3px solid; 
+    justify-items: center;
+    border-right: 3px solid;
+    border-left: 3px solid; 
+    border-bottom: 3px solid; 
+    margin-left: 100px;
+    margin-right: 800px;
+    padding-left: 5px;
+    padding-bottom: 5px; 
+    margin-top: 10px; 
+
+}
