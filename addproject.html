@@ -6,14 +6,25 @@
     <title>Add New Project</title>
 </head>
 <body>
-    <!-- Form for adding project information -->
+    <!-- Form for adding project information which will be presented on the card and on the project page-->
     <h2>Create New Project</h2>
     <form id="newProject">
         <label for="">Project Name:  </label><input type="text" id="projName" name=" projName"> <br>
         <label for="">Start Date:  </label><input type="date" name="projStartDate" id="projStartDate"> <br>
-        <label>Due Date:  </label> <input type="date" name="projDue" id="projDueDate" >
+        <label>Due Date:  </label> <input type="date" name="projDue" id="projDueDate" ><br>
+        <label for="">Project Category</label><select name="projCategory" id="projCatedory">
+            <option value="houseChores">House Chores</option>
+            <option value="garden">Garden</option>
+            <option value="pantryPlanner">Pantry Planner</option>
+            <option value="houseDecor">House Decor</option>
+            <option value="kitchen">Kitchen</option>
+            <option value="fixItList">Fix It List</option>
+            <option value="futureNeeds">Future Needs</option>
+        </select>
+        <br>
+        <button type="submit">Create Project</button>
     </form>
 
-    
+    <script src="./assets/js/addproject.js"></script>
 </body>
 </html>
